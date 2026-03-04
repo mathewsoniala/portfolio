@@ -1,0 +1,19 @@
+Resume Setup Instructions
+=========================
+
+To enable resume download functionality:
+
+1. Create your resume as a PDF file
+2. Place it in the /public folder with the filename: resume.pdf
+3. The download link will automatically work
+
+Once you add your resume.pdf to /public, visitors will be able to download it from the portfolio.
+
+You can use tools like:
+- Microsoft Word (Export as PDF)
+- Google Docs (Download as PDF)
+- Canva (Download as PDF)
+- Adobe InDesign
+- Or any PDF creation tool
+
+Place the file at: /vercel/share/v0-project/public/resume.pdf
