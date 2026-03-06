@@ -58,7 +58,7 @@ export default function ContactSection() {
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      url: 'https://linkedin.com/mathewsoniala',
+      url: 'www.linkedin.com/in/mathews-oniala-a82927274',
     },
     {
       name: 'Twitter',
@@ -178,7 +178,7 @@ export default function ContactSection() {
               <CardContent className="space-y-4 text-muted-foreground">
                 <div>
                   <p className="font-medium text-foreground mb-1">Email</p>
-                  <p>mathewsonialaodoyo@example.com</p>
+                  <p>mathewsonialaodoyo@gmail.com</p>
                 </div>
                 <div>
                   <p className="font-medium text-foreground mb-1">Location</p>

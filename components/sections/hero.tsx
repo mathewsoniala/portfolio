@@ -10,7 +10,7 @@ export default function HeroSection() {
   }
 
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-20 relative overflow-hidden">
+    <section id='home' className="min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-20 relative overflow-hidden">
       {/* Background gradient effect */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute top-40 right-10 w-72 h-72 bg-gradient-to-br from-accent/20 to-transparent rounded-full blur-3xl"></div>
