@@ -1,5 +1,7 @@
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
+import resume from "../sections/resume"
+import { Download } from 'lucide-react'
 
 export default function HeroSection() {
   const handleScroll = (id: string) => {
@@ -49,7 +51,12 @@ export default function HeroSection() {
             className="border-accent text-accent hover:bg-accent/10 rounded-full px-8 h-12"
             asChild
           >
-            <a href="/resume.pdf" download>
+            <a 
+              href="/resume.pdf" 
+              download
+              className="inline-flex items-center"
+            >
+              <Download className="w-5 h-5 mr-2" />
               Download Resume
             </a>
           </Button>
